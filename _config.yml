@@ -1,0 +1,7 @@
+title: LLM_train_notes
+description: 大模型训练的相关学习笔记
+theme: jekyll-theme-cayman
+lang: zh-CN
+markdown: kramdown
+kramdown:
+  input: GFM
