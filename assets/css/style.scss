@@ -1,0 +1,12 @@
+---
+---
+@import "{{ site.theme }}";
+
+.main-content { max-width: 72rem; }
+.main-content img { display: block; max-width: 100%; height: auto; margin: 1.2rem auto; }
+.main-content pre { overflow-x: auto; }
+details { margin: 1.25rem 0; padding: 1rem 1.25rem; border: 1px solid #cbd5e1; border-left: 4px solid #159957; border-radius: 8px; background: #f8fafc; }
+summary { cursor: pointer; color: #155799; font-weight: 600; }
+details[open] summary { margin-bottom: 1rem; }
+summary:focus-visible { outline: 3px solid #155799; outline-offset: 4px; }
+@media (max-width: 600px) { .main-content { padding: 1.25rem; } details { padding: .85rem; } }
